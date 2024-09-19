@@ -82,7 +82,7 @@ const RegisterForm = ({user}: {user: User}) => {
         placeholder="1234567890"
         />
         </div>
-        <div className="flex flex-col xl:flex-row">
+        <div className="flex flex-col gap-6 xl:flex-row">
 
         </div>
         <SubmitButton isLoading={isLoading} >
